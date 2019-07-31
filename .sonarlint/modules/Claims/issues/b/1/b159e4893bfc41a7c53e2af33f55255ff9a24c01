@@ -1,0 +1,8 @@
+
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ЏгўЙ8ѕƒзиЇ-HжRMAJORZ
+CODE_SMELL
+nsquid:S1313"2Make this IP "182.75.84.118" address configurable.(Уњф£ь€€€€8ѕƒзиЇ-HзRMINORZVULNERABILITY
+_squid:S1148$"#Use a logger to log this exception.(А…‘Еэ€€€€8ѕўжиЇ-HиRMINORZVULNERABILITY
+asquid:S2095"-Close this "Statement" in a "finally" clause.(х…МҐы€€€€8П©киЇ-HйRBLOCKERZBUG
+bsquid:S2095".Close this "Connection" in a "finally" clause.(Уњф£ь€€€€8П©киЇ-HкRBLOCKERZBUG

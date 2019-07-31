@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;crud/src/main/webapp/WEB-INF/jsp/search.jsp&apos; to &apos;searchView.jsp&apos;" description="Rename resource &apos;search.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/jsp/search.jsp" name="searchView.jsp" stamp="1560151365851" updateReferences="true"/>
+</session>

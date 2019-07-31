@@ -1,0 +1,15 @@
+
+fsquid:S2093$"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ø™ÿ£¿-H¹RCRITICALZ
+CODE_SMELL
+qsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º8ë–îË¿-HºRMINORZ
+CODE_SMELL
+€squid:UselessImportCheck"?Remove this unused import 'com.terminatecoverage.bean.Members'.(ç‰°€8Ê¬Ú£¿-H»RMINORZ
+CODE_SMELL
+‰squid:UselessImportCheck"HRemove this unused import 'com.fasterxml.jackson.databind.ObjectMapper'.(´‘¨™8€ƒÄ¨¿-H¼RMINORZ
+CODE_SMELL
+squid:UselessImportCheck"@Remove this unused import 'com.terminatecoverage.bean.Employee'.(Çú©×8ø™ÿ£¿-H½RMINORZ
+CODE_SMELL
+[squid:S1481"'Remove this unused "mm" local variable.(ˆ¶ìÛ8ø™ÿ£¿-H¾RMINORZ
+CODE_SMELL
+jsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥Å8€ƒÄ¨¿-H¿RMINORZ
+CODE_SMELL

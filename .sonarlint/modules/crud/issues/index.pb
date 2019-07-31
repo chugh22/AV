@@ -1,0 +1,27 @@
+
+_
+/src/main/java/com/avizva/StudentController.java,e/b/eb711e297182ae2a5f03dd5a8b6f6061b814286e
+X
+(src/main/java/com/avizva/StudentDao.java,5/e/5e5558547a9ee136ca262f88505e09e2f1709bf6
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+W
+'src/main/webapp/WEB-INF/jsp/stuform.jsp,5/b/5b880ff07448eaa565eafa81a55162340c7cd8a3
+I
+src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
+W
+'src/main/webapp/WEB-INF/jsp/viewstu.jsp,2/1/2144e8dbafe934e004f905068405af08d0e726f8
+V
+&src/main/webapp/WEB-INF/jsp/search.jsp,7/1/7195e63f85565f6cbbb539832ed8ee9b79051780
+U
+%src/main/webapp/WEB-INF/jsp/error.jsp,9/3/93e1d4466e49437af2d8da96e6325de845033510
+U
+%src/main/webapp/WEB-INF/jsp/query.jsp,3/8/3866d34f1e2a643af8b8a074f87c06802f53d32a
+U
+%src/main/java/com/avizva/Student.java,c/1/c1d82c5d7501dc11e1f9a78b7733a2f2260d30c6
+Z
+*src/main/webapp/WEB-INF/jsp/searchView.jsp,4/0/4052ea5163af57c4d06b7a9dbd7d4690bc03927c
+Z
+*src/main/webapp/WEB-INF/spring-servlet.xml,2/7/27d1ffb6fc31b5d30d8c3569fb69477b2ea37e1b
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec

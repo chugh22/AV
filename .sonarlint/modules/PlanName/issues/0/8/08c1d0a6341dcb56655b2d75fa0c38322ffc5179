@@ -1,0 +1,13 @@
+
+bsquid:S1481$".Remove this unused "headerRow" local variable.(Ã“ÏÎ8Ç®¦À-HùRMINORZ
+CODE_SMELL
+psquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8úµ¦À-HÿRMINORZ
+CODE_SMELL
+tsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8§Ë«¦À-HòRMINORZ
+CODE_SMELL
+fsquid:S2093 "*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‡ó”¦À-HîRCRITICALZ
+CODE_SMELL
+]squid:S1481(")Remove this unused "head" local variable.(ıÌÊš8Ç®¦À-HúRMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(ÿ’Òõùÿÿÿÿ8õ«ì§À-H¸RMAJORZ
+CODE_SMELL

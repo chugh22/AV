@@ -1,0 +1,5 @@
+package com.automation.service;
+
+public class SqlWriter {
+
+}

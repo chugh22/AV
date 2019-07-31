@@ -1,0 +1,7 @@
+
+ƒsquid:S11925"MDefine a constant instead of duplicating this literal "INSERT INTO " 3 times.(Óš¸V8ƒ±ú½¹-HïRCRITICALZ
+CODE_SMELL
+†squid:S1192E"ODefine a constant instead of duplicating this literal "SELECT * FROM " 4 times.(ıø•8ƒ±ú½¹-HğRCRITICALZ
+CODE_SMELL
+_squid:S1168X"+Return an empty collection instead of null.(¥¹ï8ƒ±ú½¹-HñRMAJORZ
+CODE_SMELL

@@ -1,0 +1,5 @@
+
+Usquid:S2095/"-Close this "ResultSet" in a "finally" clause.(åçºëH»RBLOCKERZBUG
+msquid:S2259"GA "NullPointerException" could be thrown; "statement" is nullable here.(³úÀ‹H¼RMAJORZBUG
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(›¶ô¬þÿÿÿÿH½RMINORZ
+CODE_SMELL

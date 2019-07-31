@@ -1,0 +1,49 @@
+package com.automation.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.automation.bean.PlanDocument;
+import com.automation.bean.PlanName;
+
+public class SqlWriter {
+	List<String> sql = new ArrayList<>();
+
+	public String sqlWriterPlanName(List<PlanName> apn) {
+		for (int i = 0; i < apn.size(); i++) {
+			String Insertquery = " INSERT INTO mibenefits.plan(display_name,"
+					+ "plan_summary,medical_plan,dental_plan,vision_plan,"
+					+ "prescription_plan,source,group_id,status,effective_date,"
+					+ "modified_date_time,created_date_time,modified_by,created_by)" + "values("
+					+ apn.get(i).getMibenefitsPlanName() + "," + apn.get(i).getMibenefitsPlanName() + ","
+					+ apn.get(i).getMedical() + "," + apn.get(i).getDental() + "," + apn.get(i).getVision()
+					+ ",null,'JV',(select" + " id from mibenefits.groups where external_id = " + apn.get(i).getGroupId()
+					+ ")," + "'Active','2016-01-01',now(),now(),'EBMS','EBMS');";
+			sql.add(Insertquery);
+		}   sql.add("*********************************Plan document query*************************");
+		return;
+	}
+
+	public String sqlWriterPlanDocument(List<PlanDocument> apn) {
+		for (int i = 0; i < apn.size(); i++) {
+			String Insertquery = "INSERT INTO mibenefits.plan_document(plan_id, display_name,"
+					+ " url, year, type, product, effective_date,status, modified_date_time,"
+					+ " created_date_time, modified_by, created_by,document_type_id) "
+					+ "values ((select id from mibenefits.plan where medical_plan ="
+					+ " '"+apn.get(i).getJvPlanName()+"' and group_id in "
+					+ "(select id from mibenefits.groups where external_id = '"+apn.get(i).getGroupId()+"')), "
+					+ "'"+apn.get(i).getMiBenefitsName()+"', "
+					+ "'/plans/planDocuments/"+apn.get(i).getDocumentFileName()+"',"
+					+ " '2019', 'document',"
+					+ " '"+apn.get(i).getProduct()+"', CURRENT_TIMESTAMP, 'Active', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 'pbais', 'pbais',(select id from mibenefits.plan_document_type where document_type='plan_document'));";
+			sql.add(Insertquery);
+		} 
+
+		return;
+	}
+
+	public List<String> getQuerylist() {
+		return this.sql;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.avizva;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+// @Controller marks the class as controller 
+@Controller
+public class HelloController {
+	// @Request Mapping is used to map the class with specific URL name
+//	@RequestMapping("/")
+//	public String display(){
+//		return "index";
+//	}
+	
+}

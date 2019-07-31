@@ -1,0 +1,9 @@
+
+„squid:S1192""HDefine a constant instead of duplicating this literal "message" 3 times.(ù˜—•ùÿÿÿÿ8ë¤¯´-HËRCRITICALZ
+CODE_SMELL
+‚squid:S1192#"FDefine a constant instead of duplicating this literal "error" 3 times.(Âşÿÿÿÿ8ë¤¯´-HÌRCRITICALZ
+CODE_SMELL
+‹squid:S00117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ’°éúÿÿÿÿ8ğ“ÌÒ´-HÍRMINORZ
+CODE_SMELL
+‚squid:S1192"FDefine a constant instead of duplicating this literal "admin" 3 times.(Êë­Åşÿÿÿÿ8»€İÒ´-HÎRCRITICALZ
+CODE_SMELL

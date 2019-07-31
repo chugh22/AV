@@ -1,0 +1,49 @@
+package com.avizva;
+
+import java.util.* ;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class StudentController {
+	@Autowired	
+	StudentDao dao ;
+	//will inject dao from XML file    
+    
+    /*It displays a form to input data, here "command" is a reserved request attribute  
+     *which is used to display object data into form  
+     */    
+    
+    /* It provides list of employees in model object */
+	 @RequestMapping("/stuform")    
+	    public String showform(Model m){    
+	        m.addAttribute("command", new Student());  
+	        return "stuform";   
+	    }    
+	 @RequestMapping(value="/save", method = RequestMethod.POST)    
+	 public String save(@ModelAttribute("stu") Student stu1){    
+	        dao.save(stu1);    
+	        return "redirect:/viewstu";//will redirect to viewstu request mapping    
+	    }    
+	    @RequestMapping("/viewstu")    
+	    public String viewstu(Model m){    
+	        List<Student> list=dao.getStudent();    
+	        m.addAttribute("list",list);  
+	        return "viewstu";    
+	    }    
+	    /* It displays object data into form for the given id.   
+	     * The @PathVariable puts URL data into variable.*/    
+	    @RequestMapping(value="/editstu/{id}")    
+	    public String edit(@PathVariable int id, Model m){    
+	        Student emp = dao.getStuById(id);    
+	        m.addAttribute("command",emp);  
+	        return "stueditform";    
+	    }
+	
+}

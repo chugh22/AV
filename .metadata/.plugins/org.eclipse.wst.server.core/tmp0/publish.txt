@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Jun 28 12:26:22 IST 2019
+org.eclipse.jst.j2ee.server\:/binary\:/Users/Anirudh.Chugh/.m2/repository/org/springframework/spring-web/5.1.1.RELEASE/spring-web-5.1.1.RELEASE.jar=WEB-INF/lib/spring-web-5.1.1.RELEASE.jar
+org.eclipse.jst.j2ee.server\:/binary\:/Users/Anirudh.Chugh/.m2/repository/org/springframework/spring-web/4.1.4.RELEASE/spring-web-4.1.4.RELEASE.jar=WEB-INF/lib/spring-web-4.1.4.RELEASE.jar

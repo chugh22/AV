@@ -1,0 +1,9 @@
+
+_squid:S1168u"+Return an empty collection instead of null.(ฅน๏8ญายน-HฦRMAJORZ
+CODE_SMELL
+squid:S1192D"MDefine a constant instead of duplicating this literal "INSERT INTO " 3 times.(ำธV8ญายน-HวRCRITICALZ
+CODE_SMELL
+squid:S1192T"ODefine a constant instead of duplicating this literal "SELECT * FROM " 4 times.(ý๘•8ญายน-HศRCRITICALZ
+CODE_SMELL
+squid:S2077e"RUse a variable binding mechanism to construct this query instead of concatenation.(–I8ธ€็น-HษRBLOCKERZVULNERABILITY
+squid:S2077l"RUse a variable binding mechanism to construct this query instead of concatenation.(–I8ธ€็น-HสRBLOCKERZVULNERABILITY

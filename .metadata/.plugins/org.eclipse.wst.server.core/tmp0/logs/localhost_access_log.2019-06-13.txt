@@ -1,0 +1,5 @@
+192.168.1.90 - - [13/Jun/2019:15:46:18 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [13/Jun/2019:17:02:19 +0530] "GET /BookManagement/index.jsp HTTP/1.1" 200 379
+0:0:0:0:0:0:0:1 - - [13/Jun/2019:17:03:39 +0530] "GET /BookManagement/viewusers?email=&password= HTTP/1.1" 200 1577
+0:0:0:0:0:0:0:1 - - [13/Jun/2019:17:10:17 +0530] "GET /BookManagement/viewusers?email=&password= HTTP/1.1" 200 1695
+0:0:0:0:0:0:0:1 - - [13/Jun/2019:17:10:21 +0530] "GET /BookManagement/viewusers?email=&password= HTTP/1.1" 200 1695

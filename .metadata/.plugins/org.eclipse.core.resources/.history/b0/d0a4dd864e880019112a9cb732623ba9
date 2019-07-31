@@ -1,0 +1,12 @@
+package com.avizva;
+
+import org.springframework.stereotype.Controller; 
+
+@Controller
+public class HelloController {
+	@RequestMapping("/hello")
+	public String redirect(){
+		return "hello" ;
+ 	}
+	
+}

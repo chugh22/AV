@@ -1,0 +1,11 @@
+
+_squid:S1481",Remove this unused "headers" local variable.(ë±þ8±Øú¿¹-HºRMINORZ
+CODE_SMELL
+nsquid:S1854";Remove this useless assignment to local variable "headers".(ë±þ8±Øú¿¹-H½RMAJORZ
+CODE_SMELL
+‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "users".(ÓðÚÑ8¶¬Æå¹-HÂRMINORZ
+CODE_SMELL
+†squid:UselessImportCheck"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8¶¬Æå¹-HÃRMINORZ
+CODE_SMELL
+Šsquid:UselessImportCheck"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8¶¬Æå¹-HÄRMINORZ
+CODE_SMELL

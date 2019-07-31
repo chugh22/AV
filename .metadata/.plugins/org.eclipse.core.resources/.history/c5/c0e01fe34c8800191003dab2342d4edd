@@ -1,0 +1,7 @@
+package com.avizva;
+
+
+@Controller
+public class HelloController {
+
+}

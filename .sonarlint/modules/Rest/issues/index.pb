@@ -1,0 +1,19 @@
+
+I
+src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+S
+#src/main/java/com/avizva/Books.java,8/3/83c930606c717a1a21c00b1fb1e493dd292a80cd
+T
+$src/main/java/com/avizva/Author.java,7/e/7e1a0bc9fb5942e194586d8aece2d8e2a6e41692
+U
+%src/main/java/com/avizva/BookDao.java,6/a/6a25ed47ecd58dd1163720262b215f03c289c2c2
+S
+#src/main/java/com/avizva/Users.java,1/f/1f6bda96366ff98f409027050a18550c4c235493
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+\
+,src/main/java/com/avizva/BookController.java,c/8/c8e9b001ccf527cb1f5ea2073d8930bbe06059a3
+Z
+*src/main/webapp/WEB-INF/spring-servlet.xml,2/7/27d1ffb6fc31b5d30d8c3569fb69477b2ea37e1b
